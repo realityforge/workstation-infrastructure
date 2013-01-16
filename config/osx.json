@@ -3,7 +3,8 @@
         "realityforge_workstation::java",
         "realityforge_workstation::intellij_ultimate_edition",
         "realityforge_workstation::homebrew",
-        "realityforge_workstation::rbenv"
+        "realityforge_workstation::rbenv",
+        "realityforge_workstation::inputrc"
     ],
     "brew": {
         "packages": ["git", "hub", "rbenv", "ruby-build"]
