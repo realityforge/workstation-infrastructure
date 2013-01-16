@@ -9,6 +9,7 @@
         "realityforge_workstation::textmate2",
         "realityforge_workstation::dropbox",
         "realityforge_workstation::firefox",
+        "realityforge_workstation::gemrc",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
