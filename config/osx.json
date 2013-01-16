@@ -4,6 +4,7 @@
         "realityforge_workstation::intellij_ultimate_edition",
         "realityforge_workstation::homebrew",
         "realityforge_workstation::rbenv",
+        "realityforge_workstation::virtualbox",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
