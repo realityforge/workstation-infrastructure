@@ -1,15 +1,13 @@
 {
     "recipes": [
-        "realityforge_workstation::java",
-        "realityforge_workstation::intellij_ultimate_edition",
         "realityforge_workstation::homebrew",
-        "realityforge_workstation::rbenv",
+        "realityforge_workstation::meta_java_dev",
+        "realityforge_workstation::meta_ruby_dev",
         "realityforge_workstation::virtualbox",
         "realityforge_workstation::chrome",
         "realityforge_workstation::textmate2",
         "realityforge_workstation::dropbox",
         "realityforge_workstation::firefox",
-        "realityforge_workstation::gemrc",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
