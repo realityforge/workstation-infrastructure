@@ -13,3 +13,10 @@ cookbooks/roderik_workstation:
   branch: master
   squashed: true
   revision: e037352c95b640ece4c28be6d6fc60cd4af6dc41
+cookbooks/dmg: 
+  url: git://github.com/opscode-cookbooks/dmg.git
+  remote: master/braid/cookbooks/dmg
+  type: git
+  branch: master
+  squashed: true
+  revision: 11caf56f57a1168a891f01f0614a01b879aff624
