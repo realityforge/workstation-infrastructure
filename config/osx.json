@@ -1,0 +1,14 @@
+{
+    "recipes": [
+        "realityforge_workstation::java",
+        "realityforge_workstation::intellij_ultimate_edition",
+        "realityforge_workstation::homebrew",
+        "realityforge_workstation::rbenv"
+    ],
+    "brew": {
+        "packages": ["git", "hub", "rbenv", "ruby-build"]
+    },
+    "rbenv":{
+        "versions":["1.9.3-p327","1.9.3-p362","jruby-1.7.2"]
+    }
+}
