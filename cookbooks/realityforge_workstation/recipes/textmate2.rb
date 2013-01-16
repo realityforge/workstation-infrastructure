@@ -41,3 +41,17 @@ file "#{REAL_HOME}/.bash.d/textmate.sh" do
   owner REAL_USER
   content "export EDITOR=\"/usr/local/bin/mate -w\"\n"
 end
+
+directory "#{REAL_HOME}/Library/Application Support/TextMate" do
+  mode "0700"
+  owner REAL_USER
+  group REAL_GROUP
+  action :create
+end
+
+template "#{REAL_HOME}/Library/Application Support/TextMate/Global.tmProperties" do
+  source "Global.tmProperties.erb"
+  mode "0700"
+  owner REAL_USER
+  group REAL_GROUP
+end
