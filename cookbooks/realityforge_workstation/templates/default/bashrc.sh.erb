@@ -1,0 +1,13 @@
+export PATH="/usr/local/bin:$PATH"
+
+_source_files=`ls /usr/local/etc/bash_completion.d/*.sh`
+for f in $_source_files
+do
+  source $f
+done
+
+_source_files=`ls $HOME/.bash.d/*.sh`
+for f in $_source_files
+do
+  source $f
+done

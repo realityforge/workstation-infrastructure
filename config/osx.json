@@ -1,5 +1,6 @@
 {
     "recipes": [
+        "realityforge_workstation::bashrc",
         "realityforge_workstation::homebrew",
         "realityforge_workstation::meta_java_dev",
         "realityforge_workstation::meta_ruby_dev",

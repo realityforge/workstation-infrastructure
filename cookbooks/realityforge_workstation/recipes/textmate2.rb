@@ -35,3 +35,9 @@ execute "link textmate" do
   command "ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate"
   not_if "test -e /usr/local/bin/mate"
 end
+
+file "#{REAL_HOME}/.bash.d/textmate.sh" do
+  action :create
+  owner REAL_USER
+  content "export EDITOR=\"/usr/local/bin/mate -w\"\n"
+end
