@@ -5,6 +5,7 @@
         "realityforge_workstation::homebrew",
         "realityforge_workstation::rbenv",
         "realityforge_workstation::virtualbox",
+        "realityforge_workstation::chrome",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
