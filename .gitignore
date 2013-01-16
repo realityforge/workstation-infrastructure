@@ -11,3 +11,5 @@
 
 # Local setup scripts
 setup.*
+
+/Gemfile.lock
