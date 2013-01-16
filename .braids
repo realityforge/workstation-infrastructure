@@ -1,0 +1,15 @@
+--- 
+cookbooks/pivotal_workstation: 
+  url: git://github.com/pivotal/pivotal_workstation.git
+  remote: master/braid/cookbooks/pivotal-workstation
+  type: git
+  branch: master
+  squashed: true
+  revision: 5bcc35db67035d9b6078fe29958d4258e453615d
+cookbooks/roderik_workstation: 
+  url: git://github.com/roderik/roderik_workstation.git
+  remote: master/braid/cookbooks/roderik-workstation
+  type: git
+  branch: master
+  squashed: true
+  revision: e037352c95b640ece4c28be6d6fc60cd4af6dc41
