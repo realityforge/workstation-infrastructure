@@ -11,7 +11,7 @@
         "realityforge_workstation::inputrc"
     ],
     "brew": {
-        "packages": ["git", "hub", "rbenv", "ruby-build"]
+        "packages": ["git", "hub", "rbenv", "ruby-build","wget"]
     },
     "rbenv":{
         "versions":["1.9.3-p327","1.9.3-p362","jruby-1.7.2"]
