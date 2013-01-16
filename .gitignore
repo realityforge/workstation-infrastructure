@@ -1,6 +1,5 @@
-# Ignore IDEA project files
-*.iml
-*.ipr
-*.iws
+/*.iml
+/*.ipr
+/*.iws
 /Gemfile.lock
 /tmp
