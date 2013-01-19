@@ -12,6 +12,7 @@
         "realityforge_workstation::workspace_directory",
         "realityforge_workstation::terminal_preferences",
         "realityforge_workstation::osx_updates",
+        "realityforge_workstation::cleanse_downloads_list",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
