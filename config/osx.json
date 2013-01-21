@@ -13,6 +13,7 @@
         "realityforge_workstation::terminal_preferences",
         "realityforge_workstation::osx_updates",
         "realityforge_workstation::cleanse_downloads_list",
+        "realityforge_workstation::pg_admin",
         "realityforge_workstation::inputrc"
     ],
     "brew": {
