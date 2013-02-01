@@ -1,0 +1,33 @@
+{
+    "recipes": [
+        "realityforge_workstation::bashrc",
+        "realityforge_workstation::homebrew",
+        "realityforge_workstation::meta_java_dev",
+        "realityforge_workstation::meta_ruby_dev",
+        "realityforge_workstation::virtualbox",
+        "realityforge_workstation::chrome",
+        "realityforge_workstation::textmate2",
+        "realityforge_workstation::dropbox",
+        "realityforge_workstation::firefox",
+        "realityforge_workstation::workspace_directory",
+        "realityforge_workstation::terminal_preferences",
+        "realityforge_workstation::osx_updates",
+        "realityforge_workstation::cleanse_downloads_list",
+        "realityforge_workstation::pg_admin",
+        "realityforge_workstation::spoofmac",
+        "realityforge_workstation::gitx",
+        "realityforge_workstation::inputrc"
+    ],
+    "brew": {
+        "packages": ["git", "hub", "rbenv", "ruby-build","wget"]
+    },
+    "rbenv":{
+        "versions":["1.9.3-p327","1.9.3-p362","jruby-1.7.2","jruby-1.6.7.2"]
+    },
+    "workspace": {
+        "projects": {
+            "dse/planner":{"git_repository":"git@git.fire.dse.vic.gov.au:fisg/planner.git"},
+            "dse/iris":{"git_repository":"git@git.fire.dse.vic.gov.au:fisg/iris.git"}
+        }
+    }
+}
